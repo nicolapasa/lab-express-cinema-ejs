@@ -1,8 +1,15 @@
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
   color: #00B7FF;
+}
+
+.homepage{
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/3d-rendering-empty-dimmy-theatrical-stage-with-red-curtains-drawn-rows-vacant-seats_146508-4872.jpg');
+  background-size: cover;
 }

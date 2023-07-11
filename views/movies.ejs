@@ -1,0 +1,22 @@
+<div class="container m-auto">
+
+
+<h1 class="text-2xl pt-4 font-extrabold">Ironhack Cinema</h1>
+
+<h3 class="text-xl pt-4">Click on the movie to check the showtimes!</h3>
+
+<div class="flex gap-10 flex-wrap">
+
+
+<% movies.forEach(movie => { %>
+
+    <div class="p-10 text-center bg-slate-50 shadow-lg">
+        <img src="<%- movie.image %>" alt="">
+        <h2 class="text-lg"><%- movie.title %></h2>
+        <a href="/movie/<%- movie._id%>">See more</a>
+    </div>
+ 
+<% }) %>
+</div>
+
+</div>
